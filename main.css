@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding:0;
+    background-color: black;
+  }
+  
+.main{
+    /* The image used */
+   background-image: url("mainimg.webp");
+  
+    /* Full height */
+   height: 100%; 
+   margin: 0;
+  
+    /* Center and scale the image nicely */
+   position:relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   float:top;
+   box-shadow: 100px 100px 150px #82269b;
+  }
+.hopex{
+  margin: 0;
+  padding: 0;
+  width:50%;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  position: absolute; /* Position the div absolutely */
+        top: 35%; 
+        left: 25%;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  
+}
+.main:hover{
+    cursor: context-menu;
+}
+.letsgo{
+    height: 35px;
+    width: 150px;
+    background-color:rgb(19, 226, 19);
+    position:absolute;
+            top: 50%;
+            left: 45%;
+    
+    font-size: 25px;
+    text-align: center;
+
+}
+.letsgo:hover{
+    background-color: rgb(29, 174, 29);
+    height: 35px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.about{
+    height: 100%;
+    width:100%;
+    padding-top: 30px;
+}
+.aboutinner{
+    height: 100%;
+    width: 50%;
+}
+.aboutinner h1{
+    padding-left: 25px;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(22, 245, 22);
+}
+.aboutinner p{
+    color:white;
+    padding-left:30px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img1{
+    height: 100%;
+    width: 25%;
+    background-image: url("mainimg.webp");
+    background-size: auto;
+}
+.img2{
+    height: 100%;
+    width: 25%;
+    background-image: url("mainimg.webp");
+    background-size: auto;
+}
