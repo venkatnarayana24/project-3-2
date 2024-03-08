@@ -1,4 +1,4 @@
- body, html {
+body, html {
     height: 100%;
     margin: 0;
     padding:0;
@@ -92,10 +92,10 @@
     background-size: auto;
     float:right;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .letsgo{
         position: absolute;
-            left:35%
+            left:40%
     }
     .aboutinner{
         height: 50%;
@@ -109,39 +109,17 @@
     }
     
 }
-@media (max-width: 320px) {
-    .letsgo{
-        position: absolute;
-            left:25%;
-            top: 55%
-    }
-    .aboutinner{
-        height: 50%;
-        width:100%;
-    }
-    .img1{
-        display: none;
-    }
-    .img2{
-        display: none;
-    }
-    
+@media (max-width: 424px){
+   .letsgo{
+    position:absolute;
+        top:55%;
+        left:33%;
+   }
 }
-@media (max-width: 375px) {
+@media (max-width: 766px) and (min-width: 425px){
     .letsgo{
         position: absolute;
-            left:38%;
-            bottom: 25%;
+            top: 55%;
+            left:33.5%;
     }
-    .aboutinner{
-        height: 50%;
-        width:100%;
-    }
-    .img1{
-        display: none;
-    }
-    .img2{
-        display: none;
-    }
-    
 }
