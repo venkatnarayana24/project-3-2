@@ -200,13 +200,44 @@ h1{
     }
     
 }
-/*@media (max-width: 424px){
-   .letsgo{
-    position:absolute;
-        top:55%;
-        left:33%;
-   }
-}*/
+@media (max-width: 424px){
+    .head{
+        font-size: 24px;
+    }
+    .offer{
+        height: 180vh;
+        width: 100vh;
+        overflow:hidden;
+        display:grid;
+    }
+    .muscle{
+        width: 60vh;
+        height: 35vh;
+        margin-left:10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .fatloss{
+        width: 60vh;
+        height: 35vh;
+        grid-row: 2;
+        margin-top: 1px;
+        margin-left:10px;
+        grid-column: 1;
+    }
+    .cardio{
+        width:60vh;
+        height:35vh;
+        grid-row: 3;
+        margin-left:10px;
+        margin-top: 1px;
+        grid-column: 1;
+    }
+    h1{
+        font-size:24px;
+    }
+   
+}
 @media (max-width: 766px) and (min-width: 425px){
     .head{
         font-size: 24px;
