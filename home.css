@@ -1,0 +1,246 @@
+html body{
+    margin:0;
+    padding:0;
+    
+}
+.menubar{
+    margin-top:0;
+    height: 30px;
+    width:100%;
+    background-color: chartreuse;
+    color:white;
+    font-size: large;
+}
+.menubar .hopex{
+    position: absolute;
+    top:5px;
+    left:20px;
+ 
+}
+.menubar .hopex:hover{
+    cursor: pointer;
+}
+.menubar .contact {
+    height:30px;
+    width:58px;
+    overflow: hidden;    
+    float:right;
+    margin-right: 1%;
+    color:black
+    
+}
+.menubar .home {
+   height:30px;
+   width:50px;
+   color: black;
+   float:right;
+   margin-right: 1%;  
+}
+.menubar .contact p{
+    text-align: center;
+    margin-top: 2px;
+}
+.menubar .home p{
+    text-align:center;
+    margin-top: 2px;
+
+}
+.menubar .home:hover{
+    background-color:rgb(87, 163, 12) ;
+    transition-duration: .5s;
+    cursor: pointer;
+
+}
+.menubar .contact:hover{
+    background-color:rgb(87, 163, 12) ;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.head{
+    color: greenyellow;
+    text-align: center;
+    margin-top:5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.offer{
+    height: 300px;
+    width: 100%;
+    display: grid;
+    
+
+}
+.muscle{
+    height: 250px;
+    width: 400px;
+    margin-left: 50px;
+    
+    background-image: url('musclebuilding.jpg');
+    background-size: cover; 
+    border-radius: 15px;
+    grid-column: 1;
+}
+.muscle p{
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: none;
+    font-size: 25px;
+    color:black;
+}
+.muscle:hover{
+    box-shadow:inset -120px -150px 200px rgba(222, 0, 0, 0.5);
+    border: thick;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.muscle:hover p{
+    display: block;
+    transition-duration: 2s;
+}
+
+.fatloss{
+    height: 250px;
+    width: 400px;
+    grid-column:2;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-image: url('fatloss.png');
+    background-size: cover; 
+}
+.fatloss p{
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: none;
+    font-size: 25px;
+    color:black;
+}
+.fatloss:hover{
+    box-shadow:inset -130px -160px 200px rgba(179, 0, 0, 0.782);
+    border: thick;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.fatloss:hover p{
+    display: block;
+    transition-duration: 5s;
+}
+.cardio{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    grid-column:3;
+    margin-left: 10px;
+    background-image: url('cardio.jpg');
+    background-size: cover; 
+}
+.cardio p{
+    display: none;
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    color:black;
+}
+.cardio:hover{
+    box-shadow:inset -120px -150px 200px rgba(222, 0, 0, 0.5);
+    border: thick;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.cardio:hover p{
+    display: block;
+    transition-duration: 2s;
+}
+h1{
+    font-size: 48px;
+    color: greenyellow;
+    text-align: center;
+    margin-top:5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+@media (max-width: 768px){
+    
+    .offer{
+        height: 180vh;
+        overflow:hidden;
+        display:grid;
+    }
+    .muscle{
+        width: 99vh;
+        height: 60vh;
+        margin-left:100px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .fatloss{
+        width: 99vh;
+        height: 60vh;
+        grid-row: 2;
+        margin-top: 10px;
+        margin-left:100px;
+        grid-column: 1;
+    }
+    .cardio{
+        width:99vh;
+        height:60vh;
+        grid-row: 3;
+        margin-left:100px;
+        margin-top: 10px;
+        grid-column: 1;
+    }
+    
+}
+/*@media (max-width: 424px){
+   .letsgo{
+    position:absolute;
+        top:55%;
+        left:33%;
+   }
+}*/
+@media (max-width: 766px) and (min-width: 425px){
+    .head{
+        font-size: 24px;
+    }
+    .offer{
+        height: 180vh;
+        width: 100vh;
+        overflow:hidden;
+        display:grid;
+    }
+    .muscle{
+        width: 60vh;
+        height: 35vh;
+        margin-left:10px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .fatloss{
+        width: 60vh;
+        height: 35vh;
+        grid-row: 2;
+        margin-top: 1px;
+        margin-left:10px;
+        grid-column: 1;
+    }
+    .cardio{
+        width:60vh;
+        height:35vh;
+        grid-row: 3;
+        margin-left:10px;
+        margin-top: 1px;
+        grid-column: 1;
+    }
+    h1{
+        font-size:24px;
+    }
+}
