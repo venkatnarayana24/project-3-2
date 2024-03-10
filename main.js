@@ -6,7 +6,7 @@ function openPage(url) {
     
     
     
-        window.location.href = url + ".html"; // Redirect to the specified URL after delay
+        window.location.href = "https://raw.githack.com/venkatnarayana24/project-3-2/main/" +url + ".html"; // Redirect to the specified URL after delay
     
 }
  
