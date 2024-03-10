@@ -227,9 +227,9 @@ h1{
     }
     .cardio{
         width:60vh;
-        height:35vh;
+        height:30vh;
         grid-row: 3;
-        margin-left:10px;
+        margin-left:0px;
         margin-top: 1px;
         grid-column: 1;
     }
