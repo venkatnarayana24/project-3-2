@@ -1,4 +1,4 @@
-html body{
+ html body{
     margin:0;
     padding:0;
     
@@ -202,7 +202,7 @@ h1{
 }
 @media (max-width: 424px){
     .head{
-        font-size: 24px;
+        font-size: 20px;
     }
     .offer{
         height: 180vh;
@@ -212,17 +212,17 @@ h1{
     }
     .muscle{
         width: 60vh;
-        height: 35vh;
-        margin-left:10px;
+        height: 30vh;
+        margin-left:0px;
         grid-column: 1;
         grid-row: 1;
     }
     .fatloss{
         width: 60vh;
-        height: 35vh;
+        height: 30vh;
         grid-row: 2;
         margin-top: 1px;
-        margin-left:10px;
+        margin-left:0px;
         grid-column: 1;
     }
     .cardio{
