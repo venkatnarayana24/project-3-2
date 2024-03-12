@@ -1,0 +1,217 @@
+html body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    scrollbar-width: none;
+}
+-webkit-scrollbar {
+    display: none;
+}
+
+.menubar{
+    margin-top:0;
+    height: 30px;
+    width:100%;
+    background-color: chartreuse;
+    color:white;
+    font-size: large;
+}
+.menubar .hopex{
+    position: absolute;
+    top:5px;
+    left:20px;
+ 
+}
+.menubar .hopex:hover{
+    cursor: pointer;
+}
+.menubar .contact {
+    height:30px;
+    width:58px;
+    overflow: hidden;    
+    float:right;
+    margin-right: 1%;
+    color:black
+    
+}
+.menubar .home {
+   height:30px;
+   width:50px;
+   color: black;
+   float:right;
+   margin-right: 1%;  
+}
+.menubar .contact p{
+    text-align: center;
+    margin-top: 2px;
+}
+.menubar .home p{
+    text-align:center;
+    margin-top: 2px;
+
+}
+.menubar .home:hover{
+    background-color:rgb(87, 163, 12) ;
+    transition-duration: .5s;
+    cursor: pointer;
+
+}
+.menubar .contact:hover{
+    background-color:rgb(87, 163, 12);
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.course{
+    height: 600px;
+    display: grid;
+}
+.chest{
+    background-image: url('chest.jpeg');
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 350px;
+    width: 450px;
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 10px;
+}
+.legs{
+    background-image: url('legs.jpeg');
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 1px;
+    height: 350px;
+    width: 450px;
+    grid-column: 3;
+    grid-row: 1;
+    border-radius: 10px;
+}
+.lattice{
+    background-image: url('lattice.jpeg');
+    background-position: cover;
+    margin-top: 10px;
+    margin-left: 1px;
+    height: 350px;
+    width: 450px;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 10px;
+}
+.biceps{
+    background-image: url('biceps.jpeg');
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 1px;
+    height: 500px;
+    width: 400px;
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 10px;
+}
+.shoulder{
+    background-image: url('shoulder.jpeg');
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 1px;
+    height: 400px;
+    width: 525px;
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 10px;
+}
+.chest p{
+    display: none;
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:rgb(193, 19, 19);
+}
+.chest:hover{
+    box-shadow:inset -120px -150px 200px rgba(23, 95, 228, 0.5);
+    border: thick;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.chest:hover p{
+    display: block;
+    transition-duration: 2s;
+}
+.lattice p{
+    display: none;
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:rgb(193, 19, 19);
+}
+.lattice:hover{
+    box-shadow:inset -120px -150px 200px rgba(23, 95, 228, 0.5);
+    border: thick;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.lattice:hover p{
+    display: block;
+    transition-duration: 2s;
+}
+.legs p{
+    display: none;
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:rgb(193, 19, 19);
+}
+.legs:hover{
+    box-shadow:inset -120px -150px 200px rgba(23, 95, 228, 0.5);
+    border: thick;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.legs:hover p{
+    display: block;
+    transition-duration: 2s;
+}
+.biceps p{
+    display: none;
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:rgb(193, 19, 19);
+}
+.biceps:hover{
+    box-shadow:inset -120px -150px 200px rgba(23, 95, 228, 0.5);
+    border: thick;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.biceps:hover p{
+    display: block;
+    transition-duration: 2s;
+}
+.shoulder p{
+    display: none;
+    text-align: center;
+    margin-top: 125px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:rgb(193, 19, 19);
+}
+.shoulder:hover{
+    box-shadow:inset -120px -150px 200px rgba(23, 95, 228, 0.5);
+    border: thick;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+.shoulder:hover p{
+    display: block;
+    transition-duration: 2s;
+}
