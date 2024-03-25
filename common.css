@@ -9,7 +9,6 @@ html body{
 }
 
 .menubar{
-    margin-top:0;
     position: fixed;
     height: 30px;
     width:100%;
