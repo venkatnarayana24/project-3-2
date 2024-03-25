@@ -16,6 +16,7 @@ html body{
     background-color: chartreuse;
     color:white;
     font-size: large;
+    z-index: 1000;
 }
 .menubar .hopex{
     position: absolute;
