@@ -65,7 +65,7 @@ html body{
 }
 .workout{
     display: grid;
-    padding-top:10%;
+    margin-top:10%;
 
 }
 .work1{
