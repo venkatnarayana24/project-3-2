@@ -65,6 +65,7 @@ html body{
 }
 .workout{
     display: grid;
+    z-index: 999; 
 
 }
 .work1{
