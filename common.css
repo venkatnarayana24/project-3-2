@@ -68,6 +68,10 @@ html body{
     margin-top:11%;
 
 }
+.work1,
+.work2,.work3,.work4,.work5,.work6,work7,.work8,.work9 h1{
+    font-color: chartreuse;
+}
 .work1{
     background-color:none;
     margin-top: 15px;
