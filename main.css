@@ -3,8 +3,80 @@ body, html {
     margin: 0;
     padding:0;
     background-color: black;
-    overflow:hidden;
+    overflow: hidden;
   }
+/* Your existing CSS styles */
+
+/* CSS for the sign-up/sign-in button */
+/* CSS for the sign-up/sign-in button */
+.sign {
+    background-color: #4CAF50; /* Green background for the button */
+    color: #1b1b1b; /* Black text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded borders */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+/* CSS for forgot password and sign-in links */
+.forgot-password, .sign-in, .sign-up {
+    color: #26c00b; /* Green text color */
+    margin-top: 10px; /* Add margin space */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+/* Change color on hover for sign-in and forgot password links */
+.forgot-password:hover, .sign-in:hover,.sign-up:hover {
+    color: #45a049; /* Darker green color on hover */
+}
+
+/* CSS for the sign-up/sign-in form */
+.signup-form, .forgotpassword-form, .signin-form {
+    width: 50vh;
+    margin-top: 10px; /* Add some space between the button and the form */
+    background-color: #1b1b1b; /* Black background */
+    border-radius: 10px; /* Rounded borders */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.forgotpassword-form input[type="text"],
+.signin-form input[type="text"],
+.signin-form input[type="password"] {
+    display: block; /* Display input fields as block elements */
+    margin-bottom: 10px; /* Add space between each element */
+    width: calc(100% - 40px); /* Make input fields width 100% minus padding */
+    padding: 10px; /* Add padding to input fields */
+    border-radius: 5px; /* Rounded borders for input fields */
+    background-color: black; /* Black background for input fields */
+    color: #4CAF50; /* Green text color for input text */
+    border: none; /* Remove input field border */
+}
+
+.signup-form button,
+.forgotpassword-form button,
+.signin-form button {
+    display: block; /* Display button as a block element */
+    margin-bottom: 10px; /* Add space between input fields and button */
+    width: calc(100% - 40px); /* Make button width 100% minus padding */
+    padding: 10px; /* Add padding to button */
+    border-radius: 5px; /* Rounded borders for button */
+    background-color: #4CAF50; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+.signup-form button:hover,
+.forgotpassword-form button:hover,
+.signin-form button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+
+
+
   
 .main{
     /* The image used */
@@ -39,6 +111,7 @@ body, html {
 .main:hover{
     cursor: context-menu;
 }
+
 .letsgo{
     height: 35px;
     width: 150px;
