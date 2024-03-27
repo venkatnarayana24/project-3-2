@@ -3,20 +3,23 @@ html body{
     padding:0;
     overflow:hidden;
     scrollbar-width: none;
+    background-image: url('b.jpg') ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
 }
 -webkit-scrollbar {
     display: none;
 }
 
 .menubar{
+    margin-top:0;
     position: fixed;
-    margin-top:0px;
     height: 30px;
     width:100%;
     background-color: chartreuse;
     color:white;
     font-size: large;
-    
+    z-index: 1000;
 }
 .menubar .hopex{
     position: absolute;
@@ -65,19 +68,8 @@ html body{
 }
 .workout{
     display: grid;
-    margin-top:11%;
+    padding-top: 38px;
 
-}
-.work1,
-.work2,
-.work3,
-.work4,
-.work5,
-.work6,
-.work7,
-.work8,
-.work9 h1{
-    color: chartreuse;
 }
 .work1{
     background-color:none;
@@ -207,22 +199,27 @@ html body{
 
 
 }
+video{
+  width: 100%; /* Ensure the video takes up the full width of the container */
+  border-radius: 20px
+
+}
 .work1vid
 {
- padding-top:10px;
- margin-top:15px;
+
  margin-left: 10px;
- height: 460px;
+ height: 420px;
  width: 680px;
  grid-row: 1;
  grid-column: 2;
+
 }
 .work2vid
 {
- margin-top: 10px;
  margin-left: 10px;
- height: 480px;
+ height: 420px;
  width: 680px;
  grid-row: 2;
  grid-column: 2;
+ 
 }
