@@ -200,7 +200,7 @@ html body{
 
 }
 video{
-  
+  width: 100%; /* Ensure the video takes up the full width of the container */
   border-radius: 20px
 
 }
@@ -256,15 +256,6 @@ video{
  height: 420px;
  width: 680px;
  grid-row: 6;
- grid-column: 2;
- 
-}
-.work7vid
-{
- margin-left: 10px;
- height: 420px;
- width: 680px;
- grid-row: 7;
  grid-column: 2;
  
 }
