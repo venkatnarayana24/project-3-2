@@ -81,7 +81,7 @@
     width: 400px;
     margin-left: 50px;
     
-    background-image: url('musclebuilding.jpg');
+    background-image: url('musclebuilding1.jpg');
     background-size: cover; 
     border-radius: 15px;
     grid-column: 1;
@@ -112,7 +112,7 @@
     grid-column:2;
     border-radius: 15px;
     margin-left: 10px;
-    background-image: url('fatloss.jpg');
+    background-image: url('fatloss1.jpg');
     background-size: cover; 
 }
 .fatloss p{
@@ -140,7 +140,7 @@
     border-radius: 15px;
     grid-column:3;
     margin-left: 10px;
-    background-image: url('cardio.jpg');
+    background-image: url('cardio1.jpg');
     background-size: cover; 
 }
 .cardio p{
