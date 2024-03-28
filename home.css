@@ -171,6 +171,36 @@ h1{
     font-style: italic;
     font-weight: bold;
 }
+.game{
+    height: 250px;
+    width: 400px;
+    margin-left: 50px;
+    
+    background-image: url('gamework.jpg');
+    background-size: cover; 
+    border-radius: 15px;
+    grid-column: 1;
+}
+.game p{
+    text-align: center;
+    margin-top: 125px;
+    margin-left:18.5%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: none;
+    font-size: 25px;
+    color:black;
+}
+.game:hover{
+    box-shadow:inset -120px -150px 200px rgba(14, 76, 221, 0.5);
+    border: thick;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.game:hover p{
+    display: inline-block;
+    transition-duration: 2s;
+}
 @media (max-width: 768px){
     
     .offer{
