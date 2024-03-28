@@ -16,7 +16,7 @@ body, html {
     border-radius: 5px; 
     padding: 10px 20px; 
     cursor: pointer; 
-}*/
+}
 
 
 .forgot-password, .sign-in, .sign-up {
@@ -72,7 +72,7 @@ body, html {
 .forgotpassword-form button:hover,
 .signin-form button:hover {
     background-color: #45a049; 
-}
+}*/
 
 
 
